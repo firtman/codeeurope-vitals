@@ -15,7 +15,7 @@ async function load() {
 }
 
 async function fullscreen(event) {
-    setTimeout(() => event.target.requestFullscreen(), 
+    setTimeout(() => event.target.hidden = !event.target.hidden, 
             Math.floor(Math.random() * 2500));
 };
 
