@@ -5,6 +5,10 @@ body {
     padding: 0 40px;
 }
 
+footer, footer a {
+    color: white
+}
+
 article {
     margin: 18px;
     padding: 18px;
